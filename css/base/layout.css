@@ -5,12 +5,10 @@
 .row {
     width: 1000px;
     margin: 0 calc((100% - 1000px) / 2);
-    background-color: grey;
 }
 
 .row-short {
     width: 600px;
-    background-color: yellow;
     margin: 0 calc((100% - 600px) / 2);
 }
 
@@ -18,7 +16,6 @@
     .row {
     width: 800px;
     margin: 0 calc((100% - 800px) / 2);
-    background-color: pink;
 }
 }
 
@@ -26,6 +23,24 @@
     .row {
     width: 600px;
     margin: 0 calc((100% - 600px) / 2);
-    background-color: aqua;
+}
+}
+
+@media(max-width:700px){
+    .row, .row-short {
+    width: 400px;
+    margin: 0 calc((100% - 400px) / 2);
+}
+}
+
+@media(max-width:500px){
+
+    .container {
+        padding: 40px 15px;
+    }
+
+    .row, .row-short {
+    width: 100%;
+    margin: 0;
 }
 }
