@@ -4,15 +4,3 @@ body * {
     margin: 0;
     box-sizing: border-box;
 }
-
-.column-left {
-    width: 50%;
-    float: left;
-    background-color: pink;
-}
-
-.column-right {
-    width: 50%;
-    float: left;
-    background-color: aqua;
-}
