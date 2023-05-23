@@ -44,6 +44,27 @@
     font-size: 20px;
 }
 
+.column-title {
+    text-transform: uppercase;
+    font-size: 20px;
+}
+
+.column-description {
+    font-size: 17px;
+    line-height: 1.6em;
+    color: #777;
+}
+
+.column-description > a {
+    /* color: var(--secondary-color); */
+    color: red;
+    text-decoration: none;
+}
+
+.column-description > a:hover {
+    text-decoration: underline;
+}
+
 footer.container {
     padding-top: 0;
 }
