@@ -1,7 +1,7 @@
 .progress-bar-group {
     display: flex;
     flex-direction: column;
-    gap: 1em;
+    gap: 2em;
 }
 
 .progress-bar-group > .progress-bar {
@@ -26,13 +26,12 @@
 }
 
 .progress-bar-group .bottom {
-    height: 4px;
+    height: 6px;
     width: 100%;
     background-color: #ccc;
 }
 
 .progress-bar-group .progress {
-    height: 4px;
-    width: 90%;
-    background-color: #36f;
+    height: inherit;
+    background-color: var(--main-color);
 }
