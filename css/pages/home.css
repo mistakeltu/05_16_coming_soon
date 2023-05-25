@@ -30,7 +30,7 @@
 .hero > .row-short {
     display: flex;
     flex-direction: column;
-    gap: 25px;
+    gap: 30px;
 }
 
 .logo {
@@ -79,6 +79,7 @@ footer.container {
 .socials {
     display: flex;
     justify-content: center;
+    flex-wrap: wrap;
     padding: 0.5em 0;
     font-size: 20px;
     gap: 0.5em;
@@ -100,4 +101,54 @@ footer.container {
     background-color: #fff;
     text-decoration: none;
     color: #03A9F3;
+}
+
+footer .logo-white {
+    display: block;
+    margin: 40px auto;
+
+}
+
+.text-trio {
+    text-align: center;
+    color: rgba(255, 255, 255, 0.6);
+}
+
+.text-trio > span{
+
+}
+
+.text-trio > span > a {
+
+}
+
+.text-trio > .line {
+    display: inline-block;
+    background-color: rgba(255, 255, 255, 0.6);
+    width: 2px; 
+    height: 12px;
+    margin: 0 5px;
+}
+
+.footer-bottom {
+    text-align: center;
+    color: rgba(255, 255, 255, 0.6);
+}
+
+footer a {
+    color: white;
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+
+@media (max-width: 700px) {
+    .text-trio > span {
+        display: block;
+    }
+    .text-trio > .line {
+        display: none;
+    }
 }
