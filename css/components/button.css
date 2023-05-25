@@ -1,0 +1,17 @@
+.btn {
+    display: inline-block;
+    padding: 1em 2em;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    background-color: #EB1E63;
+    color: #fff;
+    text-decoration: none;
+    border: none;
+    cursor: pointer;
+    box-shadow: -1px 2px 7px 0 #0003;
+    user-select: none;
+}
+
+.btn:hover {
+
+}
