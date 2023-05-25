@@ -6,5 +6,5 @@ body * {
 }
 
 .bg-main {
-    background-color: #03A9F3;
+    background-color: var(--main-color);
 }
